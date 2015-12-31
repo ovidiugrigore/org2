@@ -1,0 +1,68 @@
+
+.TH "GCLOUD_CONFIG_SET" 1
+
+
+
+.SH "NAME"
+.HP
+gcloud config set \- edit Google Cloud SDK properties
+
+
+
+.SH "SYNOPSIS"
+.HP
+\f5gcloud config set\fR \fISECTION\fR/\fIPROPERTY\fR \fIVALUE\fR [\fB\-\-installation\fR] [\fIGLOBAL\-FLAG\ ...\fR]
+
+
+.SH "DESCRIPTION"
+
+Set the value for an option, so that Cloud SDK tools can use them as
+configuration.
+
+
+
+.SH "POSITIONAL ARGUMENTS"
+
+\fISECTION\fR/\fIPROPERTY\fR
+.RS 2m
+The property to be set. Note that SECTION/ is optional while referring to
+properties in the core section.
+
+.RE
+\fIVALUE\fR
+.RS 2m
+The value to be set.
+
+
+.RE
+
+.SH "FLAGS"
+
+\fB\-\-installation\fR
+.RS 2m
+Typically properties are updated only in the currently active configuration, but
+when \f5\-\-installation\fR is given the property is updated for the entire
+gcloud installation.
+
+
+.RE
+
+.SH "GLOBAL FLAGS"
+
+Run \fB$ gcloud help\fR for a description of flags available to all commands.
+
+
+
+.SH "EXAMPLES"
+
+To set the project property in the core section, run:
+
+.RS 2m
+$ gcloud config set project myProject
+.RE
+
+To set the zone property in the compute section, run:
+
+.RS 2m
+$ gcloud config set compute/zone zone3
+.RE

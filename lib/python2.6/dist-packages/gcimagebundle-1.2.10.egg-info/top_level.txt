@@ -1,0 +1,1 @@
+../../../../share/pyshared/gcimagebundle-1.2.10.egg-info/top_level.txt

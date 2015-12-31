@@ -1,0 +1,1 @@
+../../../../share/pyshared/ecdsa/__init__.py

@@ -1,0 +1,6 @@
+#! /usr/bin/python -tt
+
+import euca2ools.commands
+import sys
+
+print >> sys.stderr, euca2ools.commands.Euca2ools().format_version()

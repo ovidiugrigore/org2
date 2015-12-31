@@ -1,0 +1,1 @@
+../../../../share/pyshared/gcimagebundlelib/exclude_spec.py

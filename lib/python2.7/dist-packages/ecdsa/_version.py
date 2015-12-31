@@ -1,0 +1,1 @@
+../../../../share/pyshared/ecdsa/_version.py

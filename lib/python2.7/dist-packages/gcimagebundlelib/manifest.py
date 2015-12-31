@@ -1,0 +1,1 @@
+../../../../share/pyshared/gcimagebundlelib/manifest.py
