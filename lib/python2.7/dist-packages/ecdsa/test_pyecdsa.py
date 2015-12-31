@@ -1,1 +1,0 @@
-../../../../share/pyshared/ecdsa/test_pyecdsa.py

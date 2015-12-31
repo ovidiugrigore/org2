@@ -1,1 +1,0 @@
-../../../../share/pyshared/gcimagebundlelib/platform_factory.py

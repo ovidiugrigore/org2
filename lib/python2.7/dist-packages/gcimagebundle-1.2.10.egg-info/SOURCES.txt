@@ -1,1 +1,0 @@
-../../../../share/pyshared/gcimagebundle-1.2.10.egg-info/SOURCES.txt

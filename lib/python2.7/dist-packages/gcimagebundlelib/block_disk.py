@@ -1,1 +1,0 @@
-../../../../share/pyshared/gcimagebundlelib/block_disk.py

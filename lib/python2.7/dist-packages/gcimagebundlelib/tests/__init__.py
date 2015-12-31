@@ -1,1 +1,0 @@
-../../../../../share/pyshared/gcimagebundlelib/tests/__init__.py
